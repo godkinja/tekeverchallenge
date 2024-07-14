@@ -1,0 +1,27 @@
+{
+  "name": "tekever-challenge-backend",
+  "version": "1.0.0",
+  "description": "Tekever challenge",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Rafael Raimundo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.3"
+  }
+}
